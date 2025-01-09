@@ -3,14 +3,14 @@ import re
 import os
 from dotenv import load_dotenv
 from discord.ext import commands
-#from googletrans import Translator
+from googletrans import Translator
 
-#translator = Translator()
+translator = Translator()
 
 # Intents setup (for reading messages)
 intents = discord.Intents.default()
-intents.messages = True  # Ensure the bot can read messages
-intents.message_content = True  # Required for accessing message content
+intents.messages = True
+intents.message_content = True
 intents.guilds = True
 intents.members = True
 intents.voice_states = True
@@ -54,23 +54,23 @@ async def on_message(message):
     
     else:
     
-        #sent_text = message.content
-        # detection = translator.detect(sent_text)
-        # detected_language = detection.lang
+        sent_text = message.content
+        detection = translator.detect(sent_text)
+        detected_language = detection.lang
 
-        # if detected_language == 'tl':
-        #     if str(message.channel) == 'general':
-        #         try:
-        #             translated_text = translator.translate(sent_text, dest='en').text
-        #             await message.channel.send(
-        #                 f"Detected language: {detected_language}\n"
-        #                 f"Original: {sent_text}\n"
-        #                 f"Translated: {translated_text}"
-        #             )
-        #         except Exception as e:
-        #             pass
+        if detected_language == 'tl':
+            if str(message.channel) == '<channel name>':
+                try:
+                    translated_text = translator.translate(sent_text, dest='en').text
+                    await message.channel.send(
+                        f"Detected language: {detected_language}\n"
+                        f"Original: {sent_text}\n"
+                        f"Translated: {translated_text}"
+                    )
+                except Exception as e:
+                    pass
 
-        if message.author.id == <userid>:
+        if message.author.id == <user id>:
             try:
                 await message.delete()
                 print(f'Deleted message from {message.author}: {message.content}')
@@ -87,6 +87,4 @@ async def on_message(message):
                 except discord.errors.Forbidden:
                     print("Bot has no permission to delete message")
 
-
-# Start the bot
 bot.run(token)

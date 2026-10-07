@@ -1,35 +1,91 @@
-Privacy Policy for 'message relayer'
+# Privacy Policy for Message Relayer
 
-This Privacy Policy governs the collection, use, and sharing of personal information by [Bot Name], a Discord bot developed by Chua Shan Jing. By using 'message relayer', you agree to the terms of this Privacy Policy.
+**Effective Date: 07/10/2026**
 
-Information We Collect
+This Privacy Policy explains how **Chua Shan Jing** ("we", "us", or "the Developer") collects, uses, and handles information in connection with the **Message Relayer** Discord bot ("Message Relayer" or the "Bot").
 
-We collect information that you provide to us through your use of the bot, such as your Discord user ID and username, server and channel information, and message content. We may also collect usage data, such as the frequency and duration of your use of the bot.
+By using Message Relayer, you acknowledge this Privacy Policy.
 
-How We Use Your Information
+## 1. Information We Collect
 
-We use your information to operate and improve [Bot Name], including to provide support and respond to your requests. We may also use your information to develop new features or services, to conduct research and analytics, and to comply with legal obligations.
+Depending on how Message Relayer is configured and used, the Bot may process the following information:
 
-Sharing Your Information
+* Discord user ID and username;
+* Discord server (guild) ID and name;
+* Discord channel ID and name;
+* Message content that is processed by the Bot for the purpose of relaying messages; and
+* Technical or usage information necessary to operate and maintain the Bot.
 
-We do not sell or share your personal information with third parties. However, we may disclose your information in response to legal process or a request from a law enforcement agency or regulatory authority.
+Message Relayer only accesses information that is necessary for the Bot's functionality and operation.
 
-Data Retention
+## 2. How We Use Your Information
 
-We retain your information for as long as necessary to provide [Bot Name]’s services or as required by law. We will delete your information upon your request or when it is no longer needed.
+We may use the information processed by Message Relayer to:
 
-Data Security
+* Relay messages between configured Discord channels or servers;
+* Operate, maintain, and troubleshoot the Bot;
+* Respond to support requests;
+* Improve the Bot and develop new features; and
+* Comply with applicable legal obligations.
 
-We take reasonable measures to protect your information from unauthorized access, alteration, or destruction. However, no security measure is perfect, and we cannot guarantee the security of your information.
+We do not use message content for advertising or sell it to third parties.
 
-Changes to this Policy
+## 3. Message Content
 
-We may update this Privacy Policy from time to time, and we will post the updated policy on our website. Your continued use of [Bot Name] after we make changes to this policy indicates your acceptance of the revised policy.
+Message Relayer may process the content of messages that are sent in channels where the Bot has been configured to operate.
 
-Contact Us
+Message content is processed for the purpose of providing the message-relaying functionality. **[Choose the statement below that accurately describes your Bot:]**
 
-If you have any questions or concerns about this Privacy Policy, please contact us at [Developer Email].
+**Option A — No permanent storage:**
+Message content is not intentionally stored permanently by the Developer after it has been processed and relayed, except where temporary technical logs or error logs may retain limited information for a reasonable period.
 
-Effective Date
+**Option B — Messages are stored:**
+Message content may be stored for the purpose of providing Message Relayer's services. Stored message content is retained only for as long as necessary for the Bot's operation and is deleted when it is no longer required.
 
-This Privacy Policy is effective as of 07/10/2026.
+## 4. Sharing of Information
+
+We do not sell your personal information.
+
+We may disclose information where reasonably necessary to:
+
+* Operate and maintain Message Relayer;
+* Comply with applicable laws or legal obligations;
+* Respond to valid legal requests from law enforcement or regulatory authorities; or
+* Protect the security and integrity of the Bot.
+
+## 5. Data Retention
+
+We retain information only for as long as reasonably necessary for the purposes described in this Privacy Policy.
+
+Information that is no longer required for the operation of Message Relayer will be deleted or otherwise disposed of where reasonably practicable.
+
+If you would like to request deletion of information associated with your use of the Bot, you may contact the Developer using the contact information below.
+
+## 6. Data Security
+
+We take reasonable measures to protect information processed by Message Relayer against unauthorized access, alteration, disclosure, or destruction.
+
+However, no method of electronic storage or transmission is completely secure, and we cannot guarantee absolute security of information.
+
+## 7. Discord
+
+Message Relayer operates through Discord and may receive information made available to it through Discord's platform and API.
+
+Your use of Discord is also subject to Discord's own terms and privacy policies. Message Relayer is not operated by or affiliated with Discord.
+
+## 8. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time.
+
+Any updated version will be made available through the location where this Privacy Policy is published. The "Effective Date" at the beginning of this Privacy Policy will indicate when the policy was most recently updated.
+
+## 9. Contact Us
+
+If you have questions, concerns, or requests regarding this Privacy Policy or information processed by Message Relayer, you may contact:
+
+**Developer:** Chua Shan Jing
+**Email:** [Your Developer Email]
+
+## 10. Effective Date
+
+This Privacy Policy is effective as of **07/10/2026**.

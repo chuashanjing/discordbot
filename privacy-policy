@@ -1,6 +1,6 @@
 # Privacy Policy for Message Relayer
 
-**Effective Date: 07/10/2026**
+**Effective Date: 7 October 2026**
 
 This Privacy Policy explains how **Chua Shan Jing** ("we", "us", or "the Developer") collects, uses, and handles information in connection with the **Message Relayer** Discord bot ("Message Relayer" or the "Bot").
 
@@ -10,11 +10,11 @@ By using Message Relayer, you acknowledge this Privacy Policy.
 
 Depending on how Message Relayer is configured and used, the Bot may process the following information:
 
-* Discord user ID and username;
-* Discord server (guild) ID and name;
-* Discord channel ID and name;
-* Message content that is processed by the Bot for the purpose of relaying messages; and
-* Technical or usage information necessary to operate and maintain the Bot.
+* Discord user IDs, used to check whether a person is permitted to use the Bot's commands;
+* Discord channel IDs and message IDs that the Bot is configured to use;
+* The text content and attachments (such as images or files) of the message the Bot is configured to relay;
+* Messages sent in channels the Bot can access, which the Bot reads only to detect its commands; and
+* Technical information, such as error logs, necessary to operate and maintain the Bot.
 
 Message Relayer only accesses information that is necessary for the Bot's functionality and operation.
 
@@ -22,25 +22,21 @@ Message Relayer only accesses information that is necessary for the Bot's functi
 
 We may use the information processed by Message Relayer to:
 
-* Relay messages between configured Discord channels or servers;
+* Relay the configured message to the configured Discord channel at set intervals;
+* Determine whether a person is permitted to use the Bot's commands;
 * Operate, maintain, and troubleshoot the Bot;
-* Respond to support requests;
-* Improve the Bot and develop new features; and
+* Respond to support requests; and
 * Comply with applicable legal obligations.
 
 We do not use message content for advertising or sell it to third parties.
 
 ## 3. Message Content
 
-Message Relayer may process the content of messages that are sent in channels where the Bot has been configured to operate.
+Message Relayer holds the content and attachments of the configured message in temporary memory only while the Bot is running, so that it can repost the message at set intervals. This content is not saved to a database or file, and it is cleared when the Bot restarts or a different message is selected.
 
-Message content is processed for the purpose of providing the message-relaying functionality. **[Choose the statement below that accurately describes your Bot:]**
+Other messages in channels the Bot can access are read only to check whether they contain a Bot command, and they are not stored.
 
-**Option A — No permanent storage:**
-Message content is not intentionally stored permanently by the Developer after it has been processed and relayed, except where temporary technical logs or error logs may retain limited information for a reasonable period.
-
-**Option B — Messages are stored:**
-Message content may be stored for the purpose of providing Message Relayer's services. Stored message content is retained only for as long as necessary for the Bot's operation and is deleted when it is no longer required.
+Temporary technical or error logs may include limited information, such as a short preview of the configured message. These logs are kept only for as long as reasonably necessary to operate and troubleshoot the Bot.
 
 ## 4. Sharing of Information
 
@@ -48,7 +44,7 @@ We do not sell your personal information.
 
 We may disclose information where reasonably necessary to:
 
-* Operate and maintain Message Relayer;
+* Operate and maintain Message Relayer, including through service providers that host the Bot;
 * Comply with applicable laws or legal obligations;
 * Respond to valid legal requests from law enforcement or regulatory authorities; or
 * Protect the security and integrity of the Bot.
@@ -77,15 +73,4 @@ Your use of Discord is also subject to Discord's own terms and privacy policies.
 
 We may update this Privacy Policy from time to time.
 
-Any updated version will be made available through the location where this Privacy Policy is published. The "Effective Date" at the beginning of this Privacy Policy will indicate when the policy was most recently updated.
-
-## 9. Contact Us
-
-If you have questions, concerns, or requests regarding this Privacy Policy or information processed by Message Relayer, you may contact:
-
-**Developer:** Chua Shan Jing
-**Email:** [Your Developer Email]
-
-## 10. Effective Date
-
-This Privacy Policy is effective as of **07/10/2026**.
+Any updated version will be made available through the location where this Privacy Policy is published. The "Effective Date"
